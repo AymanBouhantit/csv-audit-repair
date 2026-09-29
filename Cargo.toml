@@ -1,0 +1,14 @@
+[package]
+name = "csv-audit-repair"
+version = "0.1.0"
+edition = "2024"
+description = "Streaming, auditable repair of imperfect CSV input"
+license = "MIT"
+keywords = ["csv", "repair", "streaming"]
+categories = ["encoding", "parser-implementations"]
+exclude = ["tests/fixtures/vendor-local/**"]
+
+[dependencies]
+
+[dev-dependencies]
+csv = "1.4.0"
